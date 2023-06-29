@@ -1,0 +1,88 @@
+.chef-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+}
+.chef-padding {
+	padding: 50px 0 ;
+}
+.chef-text {
+	margin: 80px 0 0 50px;
+}
+.chef-text p {
+	word-spacing: 1px;
+	color: #888787;
+	font-size: 15px;
+	line-height: 1.5;
+	font-weight: 300;
+	font-family: "Rubik", sans-serif;
+}
+.text1 {
+	margin: 30px 0;
+}
+.text2 {
+	margin: 30px 0;
+}
+.chef-text h3 {
+	color: #6d6a6a;
+	font-size: 23px;
+	font-weight: 500;
+}
+.chef-text h2 {
+	font-size: 35px;
+	line-height: 2;
+	font-weight: 700;
+	font-family: "Arvo", serif;
+	color: #000;
+}
+.chef-text{
+	width: 33%;
+}
+.chef-img img{
+	width: 100%;
+}
+.signature {
+	margin: 30px 0;
+}
+.reservation {
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 20px;
+	background-image: url("../../images/home-knife.png");
+	background-color: #000;
+	background-size: contain;
+	background-position: right top;
+	padding: 50px 40px 20px 40px;
+	width: 30%;
+}
+.reservation h1 {
+	font-family: "Arvo", serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+.reservation a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 13px;
+	background-color: #e7272d;
+	display: inline-block;
+	padding: 15px 0 15px 90px;
+	border-radius: 5px;
+	font-family: "Rubik", sans-serif;
+	font-weight: 700;
+}
+.reservation a:hover{
+	background-color:#ffcc00 ;
+	color: #000;
+	transition: .3s;
+}
+.static {
+	padding: 10px 70px 5px 10px;
+}
+.wide {
+	padding: 80px 30px 80px 30px;
+}

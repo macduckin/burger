@@ -1,0 +1,58 @@
+.double {
+	background-image: url(../../images/home-parallax.jpg);
+	background-position: 90% 5%;
+	
+}
+.double-inner {
+	padding: 100px 0;
+	display: flex;
+	justify-content: end;
+}
+.double-inner h1,
+h2 {
+	color: #fff;
+}
+.double-inner h1 {
+	font-family: "Arvo", serif;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1.8;
+
+}
+.double-inner p {
+	color: #fff;
+	font-size: 23px;
+	font-weight: 400;
+	word-spacing: 2px;
+	font-family: "Rubik", sans-serif;
+	line-height: 1.3;
+
+}
+.double-inner h2 {
+	font-size: 30px;
+}
+.discount {
+	text-decoration: underline;
+	font-size: 25px;
+	color: #fff;
+	font-weight: 700;
+	display: inline-block;
+}
+.double-inner button {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #e7272d;
+	display: inline-block;
+	padding: 20px 40px;
+	margin-top: 30px;
+	font-size: 15px;
+	border-radius: 5px;
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+}
+.double-inner button:hover {
+	background-color:#ffcc00 ;
+	color: #000;
+	transition: .3s;
+}

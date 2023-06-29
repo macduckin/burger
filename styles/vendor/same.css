@@ -1,0 +1,57 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.section-padding {
+	padding: 80px 0;
+}
+.yellow {
+	color: #ffcc00;
+	font-family: Arvo, serif;
+}
+.italiano {
+	font-family: "Shadows Into Light Two", handwriting;
+}
+.fixed-button{
+	width: 60px;
+	height: 60px;
+	font-size: 20px;
+	border-radius: 50%;
+    background-color: #e7272d;
+    color: #fff;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin: 40px 40px 40px 40px;
+    cursor: pointer;
+	position: fixed;
+	left: 90%;
+	top: 75%;
+	display: none;
+	z-index: 2;
+}
+.bars{
+	display: none;
+}
+#close-btn{
+	font-size: 20px;
+}
+.content img{
+	width: 25%;
+}
+.content img{
+	animation-name: move;
+	animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction:alternate; 
+}
+@keyframes move{
+    0%{
+		transform: scale(0);
+    }
+    100%{
+		transform: scale(1);
+
+    }
+}

@@ -1,0 +1,79 @@
+.team-topics{
+    text-align: center;
+}
+.team-topics h2{
+    color:#e7272d ;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.team-topics h1{
+    color: #000;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+	font-family: "Arvo", serif;
+}
+.team-inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.team-item{
+    width: 25%;
+    text-align: center;
+}
+.team-item h1{
+	font-family: "Rubik", sans-serif;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+}
+.team-item h2{
+	color: #888787;
+	font-family: "Rubik", sans-serif;
+    line-height:3;
+}
+.chef-icons a {
+margin-left: 10px
+}
+.chef-icons i{
+    color: #e7272d;
+}
+.chef-icons i:hover{
+    color: #000;
+    transition: .3s;
+}
+.team-item{
+    position: relative;
+}
+.team-item img{
+    width:90%;
+}
+.team-item::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    background-color: yellow;
+    height: 10px;
+    width: 80%;
+    z-index: -1;
+    margin: 0 auto;
+}
+.team-item::after{
+    content: "";
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    background-color: yellow;
+    height: 10px;
+    width: 80%;
+    margin: 0 auto;
+    z-index: -1;
+}

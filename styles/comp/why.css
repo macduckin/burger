@@ -1,0 +1,135 @@
+.why-topics h2{
+    color:#e7272d ;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.why-topics h1{
+    color: #000;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+	font-family: "Arvo", serif;
+}
+.why-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.why-left{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 70px 0 50px;
+}
+.h3-p h3{
+    font-weight: 700;
+    color: #000;
+    font-size: 30px;
+    line-height: 3;
+	font-family: "Arvo", serif;
+}
+.h3-p p{
+	color: #888787;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.accordion{
+    color: #888787;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.accordion-item{
+    padding-top: 10px;
+}
+.accordion-button{
+    font-weight: 500;
+    font-size: 20px;
+}
+.accordion-button:not(.collapsed){
+    background-color: #ffcc00;
+    box-shadow: none;
+}
+.accordion-button:focus {
+    box-shadow:none ;
+}
+.why-right{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+.gal-bg{
+    position:absolute;
+    top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	background-color: rgba(248, 44, 44, 0.801);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+.gal-bg:hover {
+	opacity: 1;
+	transition: 0.3s;
+}
+.gal-bg:hover i{
+	transform: translateY(20%);
+	transition: 0.3s;
+}
+.gal-bg i{
+    color: #fff;
+    font-size: 40px;
+}
+.wpic{
+    position: relative;
+}
+.wpic-right{
+    display: flex;
+    flex-direction: column;
+}
+.wpic img{
+    padding: 5px 5px 5px 5px;
+}
+.why-modal{
+    position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+}
+.why-active{
+    display: flex;
+}
+.modal-btn{
+    font-size: 30px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    top: 40%;
+}
+.prev{
+    left: 50px;
+    
+}
+.next{
+    right: 50px;
+
+}

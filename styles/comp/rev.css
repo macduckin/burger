@@ -1,0 +1,46 @@
+.review {
+	background-image: url("../../images/space.jpg");
+}
+.review-topics h1 {
+	font-family: "Arvo", serif;
+	font-size: 50px;
+	font-weight: 700;
+}
+.review-topics h2 {
+	font-size: 30px;
+	line-height: 1.5;
+}
+.review-topics {
+	text-align: center;
+}
+.flex-rev {
+	display: flex;
+	justify-content: space-around;
+	gap: 20px;
+}
+.rev-div {
+	margin: 50px 0;
+	background-color: #fff;
+	width: 80%;
+	padding: 10px 30px 40px 10px;
+	margin-left: 30px;
+}
+.review-item img{
+	width: 95%;
+}
+.rev-div h2 {
+	color: #e7272d;
+	font-size: 50px;
+}
+.rev-div p {
+	color: #888787;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.rev-div h1 {
+	color: #000;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 2;
+	font-family: "Rubik", sans-serif;
+}

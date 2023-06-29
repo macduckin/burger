@@ -1,0 +1,11 @@
+.slider{
+    background-color: #e7272d;
+}
+.img-sl img{
+    width: 60%;
+}
+.slider-img{
+    width: 85%;
+    margin-left: 70px;
+    padding-left: 90px;
+}
